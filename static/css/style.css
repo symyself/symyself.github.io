@@ -1,0 +1,85 @@
+
+body {
+    background: #000;
+}
+
+h1#h1 {
+    color:red;
+    background: orange;
+}
+
+/* table */
+table,th,td {
+    border:2px solid green;
+}
+table#table1 {
+    width:400px;
+    text-align: center;
+    /* 合并单元格边框 */
+    border-collapse: collapse;
+}
+
+/* margin */
+div.margin_test {
+    width:400px;
+    height: 100px;
+    text-align:center;
+    border:1px solid green;
+}
+div#mr1 {
+    background: #85C926;
+    text-align:left;
+    padding: 10px 20px;
+}
+div#mr2 {
+    background: #424F5A;
+    margin: 15px 20px;
+}
+div#mr3 {
+    background: #DCEAF9;
+    margin: 0 gra10px 20px 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+div#mr4 {
+    background: #365D95;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+/* nav */
+div#about_nav {
+    /* background: #D9EFFC; */
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#about_nav ul {
+    list-style: none;
+}
+#about_nav li {
+    margin-top: 2px;
+}
+#about_nav li a:hover,#about_nav li a:active {
+    background: #EEEEEE;
+}
+ul.mynav > li > a {
+    position: relative;
+    display:block;
+    padding: 10px 15px;
+}
+div#about_content {
+    width: 700px;
+    float: left;
+    margin: 50px;
+}
+
+
+div#bootstrap_nav {
+    width: 200px;
+    margin: 50px;
+    float: right;
+}

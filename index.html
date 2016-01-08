@@ -3,39 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>welcome</title>
-    <link rel="icon" href="./img/symyself32.ico">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./static/img/symyself32.ico">
+    <link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
     <p><a target="_blank" href="http://symyself.github.io/">myself</a></p>
     <p><a target="_blank" href="http://www.qq.com">qq</a></p>
     <!-- <div id="mail"><a href="mailto:symyself@163.com">mail to me</a></div> -->
     <div id="mail"><a href="mailto:&#115;&#121;&#109;&#121;&#115;&#101;&#108;&#102;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">mail to me</a></div>
-
     <p style='text-align:center'>
-        <a style="color:red" id="aaa" href="./img/emmet_vim_screenshot.gif">aaa</a>
+        <a style="color:red" id="aaa" href="./static/img/emmet_vim_screenshot.gif">aaa</a>
     </p>
     <p><a target="_blank" href="https://github.com/mattn/emmet-vim">
         <img src="https://raw.githubusercontent.com/mattn/emmet-vim/master/doc/screenshot.gif" alt="ement">
     </a></p>
-
-    <hr>
-
-    <div style="width:600px">
+    <div>
         <div style="width:200px;float:left;background:orange;">
             <h1 id="h1">标题1</h1>
             <h2 id="h2">标题2</h2>
         </div>
-
-        <div style='background:gray;width:200px;float:right'>
+        <div style='background:gray;width:200px;float:left;'>
             <h1 id="hh1" style="color:red">标题1</h1>
             <h2 id="hh2" style="color:red">标题2</h2>
         </div>
     </div>
-
-
-
-    <div style="color:green;text-align:center">this is green
+    <div style="color:green;text-align:center;clear:left;">this is green
         <p style="color:red;text-align:right">this is red</p>
         <p>this is still green</p>
     </div>
@@ -44,77 +36,48 @@
         <li><span><a href="#h2">test2</a></span></li>
         <li><span><a href="#h3">test3</a></span></li>
     </ul>
-
     <ul>
         <li>无序列表1</li>
         <li>无序列表2</li>
         <li>无序列表3</li>
     </ul>
-
     <ol>
         <li>有序列表1</li>
         <li>有序列表2</li>
         <li>有序列表3</li>
     </ol>
-
     <div id="list" style="background:orange;width:300px;">
         <!-- <span>自定义列表</span> -->
         <span></span>
         <dl>
             <dt>水果</dt>
-            <dd>
-                <ol style="list-style-type:upper-roman">
-                    <li>苹果</li>
-                    <li>香蕉</li>
-                    <li>橙子</li>
-                </ol>
-            </dd>
+            <dd><ol style="list-style-type:upper-roman"><li>苹果</li><li>香蕉</li><li>橙子</li></ol></dd>
             <dt>蔬菜</dt>
-            <dd>
-                <ul>
-                    <li>土豆</li>
-                    <li>莴笋</li>
-                    <li>芹菜</li>
-                </ul>
-            </dd>
+            <dd><ul><li>土豆</li><li>莴笋</li><li>芹菜</li></ul></dd>
             <dt>电影</dt>
-            <dd>
-                <ul style="list-style-type:circle;">
-                    <li>动作</li>
-                    <li>文艺</li>
-                    <li>喜剧</li>
-                </ul>
-            </dd>
+            <dd><ul style="list-style-type:circle;"><li>动作片</li><li>剧情片</li><li>喜剧片</li></ul></dd>
         </dl>
     </div>
-
     <div id="table">
-        <table border=1 width=400px style="text-align:center">
-            <tr>
-                <th>出发</th>
-                <th>目的地</th>
-                <th>时间</th>
-                <th>费用</th>
-            </tr>
-            <tr>
-                <td>广州</td>
-                <td>重庆</td>
-                <td>2016-02-05</td>
-                <td>200</td>
-            </tr>
-            <tr>
-                <td>成都</td>
-                <td>广州</td>
-                <td>2016-02-20</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-            </tr>
+        <table id="table1">
+            <tr><th>出发</th><th>目的地</th><th>时间</th><th>费用</th></tr>
+            <tr><td>广州</td><td>重庆</td><td>2016-02-05</td><td>200</td></tr>
+            <tr><td>成都</td><td>广州</td><td>2016-02-20</td><td>500</td></tr>
+            <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
         </table>
+    </div>
+
+    <div id="mr1" class="margin_test">
+        <p><span>mr1</span></p>
+    </div>
+    <div id="mr2" class="margin_test">
+        <p><span>mr2</span></p>
+    </div>
+    <div id="mr3" class="margin_test">
+        <p><span>mr3</span></p>
+    </div>
+    <div id="mr4" class="margin_test">
+        <p><span>mr4</span></p>
     </div>
 
 </body>
