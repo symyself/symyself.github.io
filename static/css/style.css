@@ -1,6 +1,10 @@
-
 body {
-    background: #000;
+    /* background: #677F9B; */
+    background-image: url('https://www.bing.com/az/hprichbg/rb/StoatWinter_ZH-CN8766454928_1920x1080.jpg');
+    background-repeat : no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1#h1 {
@@ -37,7 +41,7 @@ div#mr2 {
 }
 div#mr3 {
     background: #DCEAF9;
-    margin: 0 gra10px 20px 30px;
+    margin: 0px 10px 20px 30px;
     padding-left: 10px;
     padding-right: 15px;
 }
@@ -63,9 +67,15 @@ div#about_nav {
 #about_nav li {
     margin-top: 2px;
 }
+
 #about_nav li a:hover,#about_nav li a:active {
-    background: #EEEEEE;
+    display: block;
+    /* background: #EEEEEE; */
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
 }
+
 ul.mynav > li > a {
     position: relative;
     display:block;
@@ -82,4 +92,28 @@ div#bootstrap_nav {
     width: 200px;
     margin: 50px;
     float: right;
+}
+
+/* tip */
+a.tip {
+    position: relative;
+    color: green;
+    z-index: 24;
+    text-decoration: none;
+}
+a.tip:hover {
+    z-index: 25;
+}
+a.tip span {
+    display: none;
+}
+a.tip:hover span {
+    position: absolute;
+    /* display: block; */
+    display: inline;
+    color: red;
+    top: -15px;
+    width: 200px;
+    /* border: 2px solid #000; */
+    background: #ddd;
 }
