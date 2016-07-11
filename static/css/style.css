@@ -3,8 +3,13 @@ body {
     background-image: url('https://www.bing.com/az/hprichbg/rb/StoatWinter_ZH-CN8766454928_1920x1080.jpg');
     background-repeat : no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0px;
     padding: 0px;
+}
+
+pre {
+    background: black;
 }
 
 h1#h1 {

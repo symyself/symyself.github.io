@@ -1,0 +1,8 @@
+*.pyc
+tags
+blog_venv
+venv
+cverage
+*.zip
+*.swp
+*.exe
